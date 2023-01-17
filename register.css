@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    background-color: rgb(247, 246, 246);
+    font-family: PingFangTC-Regular,noto sans tc,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    font-weight: 400;
+    line-height: 1.67;
+    color: #222;
+}
+
+
+/*navbar*/
+nav{
+    background-color: white;
+    color: #f9595f;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 20px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right{
+    display: flex;
+}
+
+.nav-link {
+    display: inline-block !important;
+    padding: .5rem 1rem;
+}
+
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a{
+    color:#f9595f !important;
+    cursor:pointer;
+    text-decoration:none !important;
+}
+a:hover{
+    color:#fc7579 !important;
+}
+
+
+/*warning*/
+.warning{
+    background-color:#f9595f;
+    color: white;
+    text-align: center;
+}
+p.warning{
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*container*/
+.container{
+    position : absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%); 
+}
+
+.title{
+    font-size: 24px;
+    font-weight:bold;
+    color: #222222;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    color: #222222;
+}
+
+
+input{
+    padding: .232rem .75rem;
+    font-size: 1rem;
+    line-height: 1.67;
+    color: #444;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e4e4e4;
+    border-radius: .67rem;
+    width: 200px;
+    height: 30px;
+    overflow: auto;    
+    outline:none;
+}
+
+.btn_register{
+    width: 100%;
+    box-sizing: border-box;
+    border:0;
+    background-color: #f9595f;
+    border-color: #f8343b;
+    color:#fff;
+    border-radius:10px !important;
+    cursor:pointer;
+    font-size: 14px;
+    padding: 10px;
+    outline:none;
+    margin-top: 10px;
+}
+
+.btn_register:hover{
+    color:#f9595f;
+    background-color:#fff;
+    border:1px #f9595f solid;
+    font-size: 14px;
+    padding: 10px;
+}
+
+form{
+    text-align: center;
+}
+
+.signIn{
+    text-align: center;
+    font-size: 24px;
+    text-decoration:none;
+    padding: 10px;
+}
+
